@@ -11,12 +11,15 @@
 
  
         <?php require "includes/home.php" ?>
+        <?php require "includes/newuser.php" ?>
         <?php require "includes/navbar.php" ?>
         <?php require "includes/about.php" ?>
         <?php require "includes/services.php" ?>
         <?php require "includes/products.php" ?>
         <?php require "includes/news.php" ?>
         <?php require "includes/contacts.php" ?>
+        <?php require "includes/login.php" ?>
+        <?php require "includes/searchuser.php" ?>
 
 
 
