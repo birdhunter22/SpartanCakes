@@ -1,14 +1,14 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "rishabhizthekng";
-$dbname = "spartansound";
+$servername = "ec2-52-8-168-99.us-west-1.compute.amazonaws.com";
+$username = "atom";
+$password = "@tomPWD";
+$dbname = "rishabh_test";
 
-$conn = new mysqli($servername, $username, $password, $dbname);
+$mysqli = new mysqli($servername, $username, $password, $dbname);
 
 // Check connection
-/*if ($conn->connect_error) {
-        die("Connection failed: " . $conn->connect_error);
-    } 
- echo "Connected successfully";*/
+if ($mysqli -> connect_errno) {
+  echo "Failed to connect to MySQL: " . $mysqli -> connect_error;
+  exit();
+}
 ?>

@@ -1,6 +1,7 @@
 <section class="main-section alabaster" id="users">
 	<div class="container fullsize">
-               <table align = center>
+    <h2>users</h2>
+               <table class = center>
                    <tr>
                        
                         <td class="tableheader"><strong>First Name</strong></td>
@@ -62,9 +63,5 @@
                </table>
         <br/>
         <br/>
-        <center>
-            <a class="link animated fadeInUp delay-2s servicelink" href="#" data-toggle="modal" data-target="#create-modal">ADD</a>
-            <a class="link animated fadeInDown delay-1s servicelink" href="#" data-toggle="modal" data-target="#search-modal">SEARCH</a>
-        </center>
            </div>
 </section>

@@ -9,7 +9,7 @@
     </head>
     <body>
 
- 
+        <?php require "includes/dbconnect.php" ?>
         <?php require "includes/home.php" ?>
         <?php require "includes/newuser.php" ?>
         <?php require "includes/navbar.php" ?>
@@ -20,6 +20,7 @@
         <?php require "includes/contacts.php" ?>
         <?php require "includes/login.php" ?>
         <?php require "includes/searchuser.php" ?>
+        <?php require "includes/users.php" ?>
 
 
 
