@@ -4,14 +4,26 @@
                <table class = center>
                    <tr>
                        
-                        <td class="tableheader"><strong>First Name</strong></td>
-                        <td class="tableheader"><strong>Last Name</strong></td>
+                        <td class="tableheader"><strong>Name</strong></td>
                         <td class="tableheader"><strong>Email</strong></td>
-                        <td class="tableheader"><strong>Home Address</strong></td>
-                        <td class="tableheader"><strong>Home Phone</strong></td>
-                        <td class="tableheader"><strong>Cell Phone</strong></td>
+
                         
                    </tr>
+
+                    <tr>
+                    <td>Alfreds Futterkiste</td>
+                    <td>aflred@dummy.com</td>
+                    </tr>
+                    <tr>
+                    <td>Rishabh Jain</td>
+                    <td>rishabh@dummy.com</td>
+                    </tr>
+                    <tr>
+                    <td>Geno Zepda</td>
+                    <td>Geno@dummy.com</td>
+                    </tr>
+                   <?php require "includes/dbconnect.php"?>
+
                     <?php
                         if(isset($_POST["search"])){
                             $sql = "SELECT * FROM users WHERE";
@@ -35,6 +47,8 @@
                             $sql = "SELECT * FROM users";
                             $result = $conn->query($sql);
                         }
+                        echo 'hi test'+ $result;
+
                    
                         
                         while($row = $result -> fetch_assoc()){
@@ -59,6 +73,7 @@
                                 echo "</td>";
                             echo "</tr>";
                         }
+                        echo 'hi test'+ $result;
                     ?>
                </table>
         <br/>
