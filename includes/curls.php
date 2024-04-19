@@ -1,25 +1,15 @@
 <html>
-    
-    <head>
-<?php require "head.php"?>
-    </head>
 <body>
-<section class="main-section alabaster" id="tops">
+<section class="main-section alabaster" id="curls">
 	<div class="container fullsize">
+    <h2>combined users</h2>
 <?php
 
 $curl_handle = curl_init();
-curl_setopt($curl_handle, CURLOPT_URL, "http://www.pranavprem.com/spartansound/includes/expose.php");
-curl_setopt($curl_handle, CURLOPT_HEADER, 0);
-curl_setopt($curl_handle,CURLOPT_RETURNTRANSFER,true);
 $contents = curl_exec($curl_handle);
-curl_setopt($curl_handle, CURLOPT_URL, "http://divyaatv.com/zyro/fetchuser.php");
+curl_setopt($curl_handle, CURLOPT_URL, "https://thedanishpastry.com/user_curl.php");
 $contents = $contents.",".curl_exec($curl_handle);
-curl_setopt($curl_handle, CURLOPT_URL, "http://hireharry.com/php/userlist/");
-$contents = $contents.",".curl_exec($curl_handle);
-curl_setopt($curl_handle, CURLOPT_URL, "http://helloparag.com/flyby/createDBConn.php");
-$contents = $contents.",".curl_exec($curl_handle);
-curl_setopt($curl_handle, CURLOPT_URL, "http://arunram.in/valarshopoholics/displayusers.php");
+curl_setopt($curl_handle, CURLOPT_URL, "https://ivyvo.net/expose_curl.php");
 $contents = $contents.",".curl_exec($curl_handle);
 
 #echo "<br/>";

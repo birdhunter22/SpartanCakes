@@ -1,3 +1,6 @@
+<?php
+include ("curls.php");
+?>
 <nav class="main-nav-outer" id="test">
 	<div class="container">
         <ul class="main-nav">
@@ -8,6 +11,7 @@
             <li><a href="#news">NEWS</a></li>
             <li><a href="#contacts">CONTACTS</a></li>            
             <li><a href="#users">USERS</a></li>
+            <li><a href="#curls">CURLS</a></li>
 
         </ul>
         <a class="res-nav_click" href="#"><i class="fa-bars"></i></a>

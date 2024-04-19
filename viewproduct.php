@@ -38,6 +38,7 @@
             <li><a href="./index.php#news">NEWS</a></li>
             <li><a href="./index.php#contacts">CONTACTS</a></li>            
             <li><a href="./index.php#users">USERS</a></li>
+            <li><a href="./index.php#curls">CURLS</a></li>
 
         </ul>
         <a class="res-nav_click" href="#"><i class="fa-bars"></i></a>

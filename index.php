@@ -21,6 +21,8 @@
         <?php require "includes/login.php" ?>
         <?php require "includes/searchuser.php" ?>
         <?php require "includes/users.php" ?>
+        <?php require "includes/tops.php" ?>
+        <?php require "includes/curls.php" ?>
 
 
 
