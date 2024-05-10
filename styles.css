@@ -1,0 +1,103 @@
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Georgia', serif;
+    background: #fff8f0; /* A soft peach background */
+    color: #5E3A37; /* Chocolate color for text */
+}
+
+header, nav, footer {
+    background: #DDB892; /* Warm beige background */
+    color: #5E3A37;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #5E3A37;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 15px;
+}
+
+nav ul li a:hover, nav ul li a:focus {
+    background-color: #FBEAD5; /* Lighter peach */
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.container {
+    width: 85%;
+    margin: 20px auto;
+    background: #FFFAF5; /* Very light peach */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+footer .container {
+    text-align: center;
+    font-size: 0.8em;
+    color: #5E3A37;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #DDB892;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+h1, h2, h3, h4 {
+    color: #7C4D3A; /* Darker shade of brown */
+}
+
+/* Specific Page Styles */
+.main-nav, .footer {
+    background: #A28776; /* Muted brown */
+}
+
+.main-nav li a:hover, .main-nav li a:focus {
+    background-color: #FFD6BA; /* Soft peach */
+    color: #5E3A37;
+}
+
+.credits {
+    opacity: 0.6;
+}
+
+/* Enhancements */
+.main-section, .service-list, .about-section {
+    padding: 20px;
+    background: rgba(255, 250, 245, 0.9);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.star {
+    color: goldenrod; /* Gold color for stars */
+    font-size: 20px; /* Size of the stars */
+}
+
+.cake-item {
+    font-size: 18px;
+    margin-bottom: 10px; /* Space between items */
+}
+
+.rating {
+    display: inline-block; /* Keep stars inline with cake name */
+}
